@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{71B681D4-572E-4846-BEAB-0ABAF32873F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{71B681D4-572E-4846-BEAB-0ABAF32873F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E52904A4-7FEA-42DA-9374-F9926E89FB02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{E52904A4-7FEA-42DA-9374-F9926E89FB02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{71959DEF-C28F-4EDA-B9D1-7E0F18AFEBDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{71959DEF-C28F-4EDA-B9D1-7E0F18AFEBDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F444A0FD-D233-49D7-A7B1-A769863D0107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F444A0FD-D233-49D7-A7B1-A769863D0107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{4F7EE17E-1E45-457C-8CE7-8F88008C17D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{4F7EE17E-1E45-457C-8CE7-8F88008C17D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{C4FA8762-2E78-490D-9BA9-32694852CC4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{C4FA8762-2E78-490D-9BA9-32694852CC4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIPreparation", "UIPreparation\UIPreparation.csproj", "{EFE5D28F-6508-4FE3-9414-B7B2D3A479FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIPreparation", "UIPreparation\UIPreparation.csproj", "{EFE5D28F-6508-4FE3-9414-B7B2D3A479FD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C76E1B02-EF02-440E-9942-11AB0AFA1C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{EFE5D28F-6508-4FE3-9414-B7B2D3A479FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE5D28F-6508-4FE3-9414-B7B2D3A479FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE5D28F-6508-4FE3-9414-B7B2D3A479FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76E1B02-EF02-440E-9942-11AB0AFA1C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76E1B02-EF02-440E-9942-11AB0AFA1C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76E1B02-EF02-440E-9942-11AB0AFA1C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76E1B02-EF02-440E-9942-11AB0AFA1C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
